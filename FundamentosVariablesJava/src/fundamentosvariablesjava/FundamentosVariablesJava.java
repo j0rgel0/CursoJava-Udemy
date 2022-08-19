@@ -26,5 +26,18 @@ public class FundamentosVariablesJava {
         var miVariableCadena2 = "Nueva Cadena";
         System.out.println("miVariableCadena2 = " + miVariableCadena2);
         
+        //Reglas para definir una variable en Java
+        // Valores permitidos en el nombre de las variables
+        var miVariable = 1;
+        var _miVariable = 2;
+        var $miVariable =3;
+        //var áVariable = 0;  No se recomienda utilizar
+        
+        // No se pueden utilizar la siguientes
+        //var #miVariable = 2;
+        
+        
+        
+        
     }    
 }
