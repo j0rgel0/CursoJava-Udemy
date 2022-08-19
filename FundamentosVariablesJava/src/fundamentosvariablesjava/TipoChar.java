@@ -23,5 +23,8 @@ public class TipoChar {
         
         var varCharsimbolo2 = '!';
         System.out.println("varCharsimbolo2 = " + varCharsimbolo2); //varCharsimbolo2 = !
+        
+        int variableEnteraSimbolo = '!';
+        System.out.println("variableEnteraSimbolo = " + variableEnteraSimbolo); // variableEnteraSimbolo = 33
     }
 }
