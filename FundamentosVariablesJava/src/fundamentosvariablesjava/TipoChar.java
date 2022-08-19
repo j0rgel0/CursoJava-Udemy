@@ -26,5 +26,11 @@ public class TipoChar {
         
         int variableEnteraSimbolo = '!';
         System.out.println("variableEnteraSimbolo = " + variableEnteraSimbolo); // variableEnteraSimbolo = 33
+        
+        int letra = 'A';
+        System.out.println("letra = " + letra); //letra = 65
+        
+        int letra2 = 'a';
+        System.out.println("letra2 = " + letra2); //letra = 97
     }
 }
