@@ -19,5 +19,12 @@ public class FundamentosVariablesJava {
         miVariableCadena = "Adios";
         System.out.println(miVariableCadena); // Adios
         
+        // var - Inferencias de tipos en Java
+        var miVariableEntera2 = 15;
+        System.out.println(miVariableEntera2); // 15
+        
+        var miVariableCadena2 = "Nueva Cadena";
+        System.out.println("miVariableCadena2 = " + miVariableCadena2);
+        
     }    
 }
