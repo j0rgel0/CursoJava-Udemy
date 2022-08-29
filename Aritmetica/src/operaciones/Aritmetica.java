@@ -7,8 +7,18 @@ public class Aritmetica {
     
     //Constructor vacio
     //public para que sea accedido desde otras clases
+    //El constructor vacio solo se va agregar cuando no haya otros constructores.
     public Aritmetica(){
         System.out.println("Ejecutando constructor");
+    }
+    
+    //Sobrecarga de constructores
+    // Añadir 2 o más constructores en la misma clase
+    
+    public Aritmetica(int a, int b){
+        this.a = a;
+        this.b = b;
+        System.out.println("Ejecutando constructor con argumentos");
     }
 
     // Métodos de la clase
