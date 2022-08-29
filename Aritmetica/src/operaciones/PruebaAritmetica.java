@@ -2,6 +2,12 @@ package operaciones;
 
 public class PruebaAritmetica {
     public static void main(String[] args) {
+        
+        // Variables locales 
+        //(Solo se usa var con variables locales), no se pueden ocupar desde otro método.
+        int a = 10;
+        int b = 2; //El alcance es mayor
+        
         Aritmetica aritmetica1 = new Aritmetica();
         System.out.println("aritmetica1 a= " + aritmetica1.a);
         System.out.println("aritmetica1 b= " + aritmetica1.b);
