@@ -4,6 +4,12 @@ public class Aritmetica {
     // Atributos de la clase
     int a;
     int b;
+    
+    //Constructor vacio
+    //public para que sea accedido desde otras clases
+    public Aritmetica(){
+        System.out.println("Ejecutando constructor");
+    }
 
     // Métodos de la clase
     public void sumar() {
